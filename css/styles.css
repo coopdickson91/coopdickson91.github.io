@@ -76,6 +76,10 @@
   }
 }
 
+.navside {
+  background-color: --bs-blue;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -3944,7 +3948,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #bd5d38;
+  color: #31CAD4;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3954,7 +3958,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #974a2d;
+  color: #32AEB6;
 }
 .nav-link.disabled {
   color: #6c757d;
