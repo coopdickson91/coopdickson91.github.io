@@ -76,8 +76,12 @@
   }
 }
 
-.navside {
-  background-color: --bs-blue;
+.nav-2{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
 
 body {
@@ -3948,7 +3952,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #31CAD4;
+  color: #bd5d38;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3958,7 +3962,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #32AEB6;
+  color: #974a2d;
 }
 .nav-link.disabled {
   color: #6c757d;
