@@ -96,6 +96,10 @@
   display: block;
 }
 
+.sidenav a:hover{
+  color:#6ff9ff; 
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
