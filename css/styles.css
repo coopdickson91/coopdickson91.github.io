@@ -74,7 +74,7 @@
   color: white;
 }
 
-html {
+body {
   --s:67px; /* shape size */
   --m:4px;  /* line thickness */
 
@@ -91,7 +91,7 @@ html {
   background-size: calc(var(--s) + 2*var(--m)) calc(var(--s)*1.732 + 3*var(--m)); 
   mix-blend-mode:lighten;
 }
-html:before {
+body:before {
   content: "";
   position: absolute;
   inset: 0;
